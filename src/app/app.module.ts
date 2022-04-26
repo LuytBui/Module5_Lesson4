@@ -6,12 +6,16 @@ import { AppComponent } from './app.component';
 import { ArticleComponent } from './article/article.component';
 import {FormsModule} from '@angular/forms';
 import { LikeComponent } from './like/like.component';
+import { FooterComponent } from './footer/footer.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ArticleComponent,
-    LikeComponent
+    LikeComponent,
+    FooterComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
